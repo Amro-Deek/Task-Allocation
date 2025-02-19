@@ -1,0 +1,203 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+}
+
+header div.right-links {
+    display: flex;
+    align-items: right;
+    gap: 15px;
+    color: #4CAF50;
+}
+.auth-links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.auth-link {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.auth-link:hover {
+    text-decoration: underline;
+    color: #0a1118;
+}
+
+#addProject {
+    background-color: #4CAF50;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    text-align: center;
+    font-family: 'poppins', 'Times New Roman', Times, serif;
+    margin-left: auto;
+    margin-right: auto; 
+    display: block;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+input[type="file"],
+select,
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1rem;
+    background-color: #ffffff
+}
+.allocation-form {
+    font-family: 'poppins', 'Times New Roman', Times, serif;
+    max-width: 600px;
+    margin: 10px;
+    background-color: #f9f9f9;
+}
+
+fieldset {
+    border: 1px solid #4CAF50;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    color: #4CAF50;
+    padding: 0 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+button[type="submit"] {
+    font-family: 'poppins', 'Times New Roman', Times, serif;
+    padding: 10px;
+    color: #f9f9f9;
+    width: 100%;
+    font-size: 1rem;
+    background-color: #4CAF50;
+}
+button[type="submit"].reject {
+    font-family: 'poppins', 'Times New Roman', Times, serif;
+    padding: 10px;
+    color: #f9f9f9;
+    width: 100%;
+    font-size: 1rem;
+    background-color: red;
+}
+
+
+button[type="submit"]:hover {
+    background-color: black;
+}
+
+select {
+    background-color: #fff;
+    font-size: 14px;
+}
+
+textarea {
+    height: 80px;
+    resize: none;
+}
+
+.successmsg {
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 500px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
+    display: block;
+}
+.form-row {
+    display: flex;
+    justify-content: space-between; /* make space between 2 fields */
+    align-items: center; 
+    gap: 10px; 
+    margin-bottom: 10px;
+}
+.form-row label {
+    min-width: 120px; 
+}
+.errormsg {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+    border: 1px solid red;
+    background-color: #ffe6e6;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 500px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
+    display: block;
+}
+#tasks_table tbody tr:hover { /*hover effect for table rows  */ 
+    background-color: rgb(0, 0, 0);
+    color:white
+}
+
+.Low {
+    background-color: green;
+    color: white;
+}
+
+.Medium {
+    background-color: yellow;
+    color: black;
+}
+
+.High {
+    background-color: red;
+    color: white;
+}
+
+.pending { /*pending status */
+    font-style: italic;
+    background-color: gray;
+    color: #333;
+}
+
+.in-progress { /*in progress status */
+    font-weight: bold;
+    background-color: lightblue;
+    color: black;
+}
+
+.completed { /*completed status */
+    text-decoration: line-through;
+    border: 2px solid green;
+    color: black;
+}
